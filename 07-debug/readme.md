@@ -21,7 +21,7 @@ The `AxesHelper` displays the X, Y, and Z axes in the scene. It can be very usef
 </Canvas>
 ```
 
-![alt text](/public/axes-helper.jpg)
+![alt text](./axes-helper.jpg)
 
 This will give you a visual representation of the axes in your scene.
 
@@ -35,7 +35,7 @@ The `GridHelper` displays a grid in the scene.
 <gridHelper args={[10, 10, "green", "blue"]} />
 ```
 
-![alt text](/public/grid-helper.jpg)
+![alt text](public/grid-helper.jpg)
 
 You can now see a grid in your scene. As with any other 3D object, you can move, scale, and rotate it.
 
@@ -59,7 +59,7 @@ R3F also provides its own `Grid` component, which offers more options than `Grid
 />
 ```
 
-![alt text](/public/grid.jpg)
+![alt text](public/grid.jpg)
 This will render a fading grid in your scene.
 
 ### BoxHelper
@@ -81,7 +81,7 @@ const Box = () => {
 };
 ```
 
-![alt text](/public/box-helper.jpg)
+![alt text](public/box-helper.jpg)
 This will allow you to see your previously invisible box. The `useHelper` hook handles updates and removal of the helper on unmount automatically.
 
 ## Leva
@@ -122,7 +122,7 @@ const Box = () => {
 };
 ```
 
-![alt text](/public/leva-position.jpg)
+![alt text](public/leva-position.jpg)
 This allows you to edit the position of your box in real time.
 
 ### Advanced Controls
@@ -158,10 +158,9 @@ return (
 );
 ```
 
-![alt text](/public/leva-full-controls.jpg)
+![alt text](public/leva-full-controls.jpg)
 
 This will allow you to play with the controls and see the result in real time.
-
 
 If you keep the controls, you can hide Leva globally and make it appear only when needed by adding the `Leva` component to your project:
 
@@ -202,4 +201,4 @@ import { Stats } from "@react-three/drei";
 </Canvas>;
 ```
 
-![alt text](/public/stats.jpg)
+![alt text](public/stats.jpg)
