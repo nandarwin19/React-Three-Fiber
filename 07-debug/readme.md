@@ -21,7 +21,7 @@ The `AxesHelper` displays the X, Y, and Z axes in the scene. It can be very usef
 </Canvas>
 ```
 
-![alt text](./axes-helper.jpg)
+![alt text](public/axes-helper.jpg)
 
 This will give you a visual representation of the axes in your scene.
 
