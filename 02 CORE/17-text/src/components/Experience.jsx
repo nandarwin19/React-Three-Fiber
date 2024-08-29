@@ -17,14 +17,14 @@ export const Experience = () => {
       <Text3D
         font={"fonts/Inter_Bold.json"}
         rotation-y={THREE.MathUtils.degToRad(30)}
-        position={[-8, 0, -5]}
+        position={[-8, 0, -4]}
         size={4}
         bevelEnabled
         bevelThickness={0.5}
         bevelSize={0.1}
         bevelSegments={10}
       >
-        ZELDA
+        NWIN
         <meshStandardMaterial color={"#a1bb6f"} />
       </Text3D>
       <group position-x={-1.5} rotation-y={THREE.MathUtils.degToRad(15)}>
@@ -35,9 +35,9 @@ export const Experience = () => {
           maxWidth={1}
           textAlign="center"
           font="fonts/MedievalSharp-Regular.ttf"
-          characters="Hyrule Castle"
+          characters=" It will pass"
         >
-          Hyrule Castle
+          How's it?
           <meshStandardMaterial color={"#803d1c"} />
         </Text>
       </group>
@@ -48,7 +48,7 @@ export const Experience = () => {
             <meshStandardMaterial color={"black"} />
           </Text>
           <Text fontSize={0.2} anchorY={"top"}>
-            Zelda personal hero
+            nwin portfolio
             <meshStandardMaterial color={"grey"} />
           </Text>
         </Billboard>
