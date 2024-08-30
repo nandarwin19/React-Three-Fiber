@@ -237,3 +237,7 @@ With this setup, the introduction fades out as you scroll down, enhancing the in
 ## Conclusion
 
 By employing the `ScrollControls` component and the `useScroll` hook, we can effectively synchronize scroll events between the 3D scene and the HTML interface. This coordination allows for a fluid and dynamic user experience that mirrors scrolling actions within the 3D environment. 
+
+
+
+# [Scroll Demo](https://r3f-pi.vercel.app/)
